@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="tamalConnectionString-Web.config Connection String" description="tamalConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=tamalc.database.windows.net;Initial Catalog=tamal;Persist Security Info=True;User ID=tamalc;Password=LDCaprio001" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="D:\\CapstoneProject\\AdminApp\\AdminUnivPrereq\\AdminUnivPrereq\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='tamalConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
